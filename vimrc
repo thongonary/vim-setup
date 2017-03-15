@@ -59,7 +59,7 @@ else
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
-" Easier color scheme for vimdiff
+" Simple color scheme for vimdiff
 highlight DiffAdd    cterm=bold ctermfg=1 ctermbg=none gui=none guifg=bg guibg=Red
 highlight DiffDelete cterm=bold ctermfg=1 ctermbg=none gui=none guifg=bg guibg=Red
 highlight DiffChange cterm=bold ctermfg=1 ctermbg=none gui=none guifg=bg guibg=Red
@@ -86,3 +86,6 @@ set showcmd
 
 " Use ` as leader key
 let mapleader="`"
+
+" Toggle between displaying line number
+nnoremap <Leader>n :set invnumber<CR>
