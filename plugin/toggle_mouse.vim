@@ -1,7 +1,7 @@
 " Toggle mouse plugin for quickly toggling mouse between Vim and terminal
 " Maintainer:   Thong Nguyen <thong.nguyen@cern.ch>
 " Version:      Vim 7 (may work with lower Vim versions, but not tested)
-" URL:          https://github.com/thongonary/vim-setup/tree/master/plugin
+" URL:          https://github.com/thongonary/vim-setup
 "
 " Only do this when not done yet for this buffer
 if exists("b:loaded_toggle_mouse_plugin")
