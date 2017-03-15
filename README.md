@@ -1,6 +1,5 @@
 # vim-setup
-vimrc and plugins
+My personal vim configuration. Use at your own risk!
 
-My vim setup just for personal use
-
-Copy the plugin directory to your ~/.vim/plugin
+Copy the plugin directory to your ~/.vim/plugin.
+Rename vimrc to .vimrc in your home directory.
