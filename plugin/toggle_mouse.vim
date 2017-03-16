@@ -28,5 +28,6 @@ endfunction
 if !exists("no_plugin_maps") && !exists("no_toggle_mouse_maps")
     if !hasmapto('<SID>ToggleMouse()')
         nnoremap <Leader>m :call <SID>ToggleMouse()<CR>
+        vnoremap <Leader>m :call <SID>ToggleMouse()<CR>
     endif
 endif
