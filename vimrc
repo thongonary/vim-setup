@@ -89,3 +89,18 @@ let mapleader="`"
 
 " Toggle between displaying line number
 nnoremap <Leader>n :set invnumber<CR>
+
+" Run pathogen (manage the runtime path)
+execute pathogen#infect()
+
+" NERDTree needs this because vim8 encoding is incompatible
+let g:NERDTreeDirArrows=0
+set encoding=utf-8
+
+" Open NERDTree on startup
+autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Toggle NERDTree with Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
