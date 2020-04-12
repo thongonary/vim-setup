@@ -23,12 +23,6 @@ end
 
 syntax enable           " enable syntax processing
 
-" 4 spaces for tab
-set shiftwidth=4
-set tabstop=4       " number of visual spaces per TAB
-set softtabstop=4   " number of spaces in tab when editing
-set expandtab       " tabs are spaces
-
 set number              " show line numbers
 
 set showcmd             " show command in bottom bar
@@ -114,3 +108,11 @@ let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
+
+" 4 spaces for tab
+set shiftwidth=4
+set tabstop=4       " number of visual spaces per TAB
+set softtabstop=4   " number of spaces in tab when editing
+set expandtab       " tabs are spaces
+
+
