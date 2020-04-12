@@ -1,6 +1,7 @@
 # vim-setup
 My personal vim configuration. Use at your own risk!
 
-> mv vim ~/.vim
-
-> mv vimrc ~/.vimrc
+>>>
+ln -s vim-setup/vim ~/.vim
+ln -s vim-setup/vimrc ~/.vimrc
+>>>
