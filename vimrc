@@ -84,31 +84,6 @@ let mapleader="`"
 " Toggle between displaying line number
 nnoremap <Leader>n :set invnumber<CR>
 
-" Run pathogen (manage the runtime path)
-" execute pathogen#infect()
-
-" NERDTree needs this because vim8 encoding is incompatible
-" let g:NERDTreeDirArrows=0
-" set encoding=utf-8
-
-" Open NERDTree on startup
-" autocmd vimenter * NERDTree
-" autocmd StdinReadPre * let s:std_in=1
-" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-" Toggle NERDTree with Ctrl+n
-" map <C-n> :NERDTreeToggle<CR>
-
-" Recommend settings for Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-
 " 4 spaces for tab
 set shiftwidth=4
 set tabstop=4       " number of visual spaces per TAB
