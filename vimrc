@@ -53,6 +53,10 @@ else
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
+set t_Co=256
+set t_ut=
+colorscheme codedark
+
 " Simple color scheme for vimdiff
 highlight DiffAdd    cterm=bold ctermfg=1 ctermbg=none gui=none guifg=bg guibg=Red
 highlight DiffDelete cterm=bold ctermfg=1 ctermbg=none gui=none guifg=bg guibg=Red
