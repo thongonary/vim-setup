@@ -7,7 +7,9 @@ set hidden
 set ttyfast
 
 " Enable mouse use in all modes
-set mouse=a
+if has('mouse')
+    set mouse=a
+endif
 
 set smartcase     " ignore case if search pattern is all lowercase, case-sensitive otherwise
 set smarttab     " insert tabs on the start of a line according to
